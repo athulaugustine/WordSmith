@@ -62,25 +62,20 @@
    OPENAI_API_KEY=your_openai_api_key
 
 
-Usage
-Run the Streamlit app:
+##Usage
+1. Run the Streamlit app:
    ```bash
    streamlit run app.py```
-
-
-
-Open the app in your browser at http://localhost:8501.
-
-Upload your Excel file containing words with missing fields.
-
-Select the LLM you want to use (either GPT or Ollama).
-
-Click "Process" to start filling in the missing data.
+   
+2. Open the app in your browser at http://localhost:8501.
+3. Upload your Excel file containing words with missing fields.
+4. Select the LLM you want to use (either GPT or Ollama).
+5. Click "Process" to start filling in the missing data.
 
 Once the process is complete, download the processed Excel file with the filled-in word information.
 
-Code Overview
-Main Components
+##Code Overview
+##Main Components
 Streamlit UI: The web interface that allows users to upload files, select LLM options, and download processed data.
 LLM Processing:
 process_file_gpt: Uses OpenAI GPT to process and fill missing word information.
