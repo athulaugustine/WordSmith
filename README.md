@@ -1,69 +1,73 @@
-WordSmith
-WordSmith is an AI-powered tool designed to complete and enrich linguistic datasets by providing definitions, parts of speech, etymologies, and usage examples for words. With the power of large language models (LLMs) like GPT and Ollama, WordSmith ensures efficient and precise filling of missing data, making it an ideal tool for language researchers, lexicographers, and anyone working with linguistic data.
+# WordSmith
 
-Features
-Fill Missing Word Information: Automatically generate the missing linguistic details for a list of words, including:
+**WordSmith** is an AI-powered tool designed to complete and enrich linguistic datasets by providing definitions, parts of speech, etymologies, and usage examples for words. With the power of large language models (LLMs) like **GPT** and **Ollama**, WordSmith ensures efficient and precise filling of missing data, making it an ideal tool for language researchers, lexicographers, and anyone working with linguistic data.
 
-Part of Speech: Noun, verb, adjective, etc.
-Definition: A clear and concise explanation of the word's meaning.
-Example Usage: An example sentence that demonstrates how the word is used in context.
-Etymology: A historical account of the word's origin and evolution.
-Two LLM Options: Choose between two powerful language models:
+## Features
 
-GPT: Powered by OpenAI’s GPT model.
-Ollama: Powered by Ollama, a versatile alternative for word processing.
-Efficient Processing: Process large datasets efficiently by handling multiple rows and providing real-time progress updates.
+- **Fill Missing Word Information**: Automatically generate the missing linguistic details for a list of words, including:
+  - **Part of Speech**: Noun, verb, adjective, etc.
+  - **Definition**: A clear and concise explanation of the word's meaning.
+  - **Example Usage**: An example sentence that demonstrates how the word is used in context.
+  - **Etymology**: A historical account of the word's origin and evolution.
+  
+- **Two LLM Options**: Choose between two powerful language models:
+  - **GPT**: Powered by OpenAI’s GPT model.
+  - **Ollama**: Powered by Ollama, a versatile alternative for word processing.
 
-Download Processed Data: Once the missing data is filled, you can download the enriched dataset in Excel format for further use.
+- **Efficient Processing**: Process large datasets efficiently by handling multiple rows and providing real-time progress updates.
 
-Ideal For
-Language Researchers: Quickly enrich and complete linguistic datasets.
-Lexicographers: Automatically generate detailed word entries for dictionaries.
-Data Scientists: Automate the process of enhancing word datasets for analysis.
-Technologies Used
-Streamlit: For building the web interface and interacting with users.
-LangChain: For integrating with LLMs (GPT or Ollama).
-Pandas: For reading, processing, and manipulating Excel files.
-OpenAI GPT: For generating language data via GPT-4.
-Ollama: For enriching word data through Ollama’s LLM.
-Installation
-Prerequisites
-Python 3.x
-Streamlit
-Pandas
-LangChain
-OpenAI or Ollama API keys
-Step-by-Step Setup
-Clone the repository:
+- **Download Processed Data**: Once the missing data is filled, you can download the enriched dataset in Excel format for further use.
 
-bash
-Copy code
-git clone https://github.com/yourusername/wordsmith.git
-cd wordsmith
-Create and activate a virtual environment (optional but recommended):
+## Ideal For
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-Install required dependencies:
+- **Language Researchers**: Quickly enrich and complete linguistic datasets.
+- **Lexicographers**: Automatically generate detailed word entries for dictionaries.
+- **Data Scientists**: Automate the process of enhancing word datasets for analysis.
 
-bash
-Copy code
-pip install -r requirements.txt
-Set up environment variables:
+## Technologies Used
 
-For GPT (OpenAI), create a .env file and add your API key:
-ini
-Copy code
-OPENAI_API_KEY=your_openai_api_key
-For Ollama, set up your credentials as needed.
+- **Streamlit**: For building the web interface and interacting with users.
+- **LangChain**: For integrating with LLMs (GPT or Ollama).
+- **Pandas**: For reading, processing, and manipulating Excel files.
+- **OpenAI GPT**: For generating language data via GPT-4.
+- **Ollama**: For enriching word data through Ollama’s LLM.
+  
+## Installation
+
+### Prerequisites
+
+- Python 3.x
+- Streamlit
+- Pandas
+- LangChain
+- OpenAI or Ollama API keys
+
+### Step-by-Step Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/wordsmith.git
+   cd wordsmith
+
+2. **Create and activate a virtual environment (optional but recommended):**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+3. **Install required dependencies:**:
+   ```bash
+   pip install -r requirements.txt
+
+4. **Set up environment variables:**:
+   OPENAI_API_KEY=your_openai_api_key
+
+
 Usage
 Run the Streamlit app:
+  ```bash
+  streamlit run app.py
 
-bash
-Copy code
-streamlit run app.py
+
 Open the app in your browser at http://localhost:8501.
 
 Upload your Excel file containing words with missing fields.
@@ -89,3 +93,5 @@ Processed data is saved incrementally, preventing data loss and enabling the app
 Notes
 Ensure that you have a valid API key for either GPT or Ollama.
 The application supports large datasets, processing the information efficiently and saving progress along the way.
+
+
