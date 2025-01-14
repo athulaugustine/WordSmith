@@ -64,8 +64,9 @@
 
 Usage
 Run the Streamlit app:
-  ```bash
-  streamlit run app.py
+   ```bash
+   streamlit run app.py
+
 
 
 Open the app in your browser at http://localhost:8501.
