@@ -65,7 +65,7 @@
 Usage
 Run the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run app.py```
 
 
 
