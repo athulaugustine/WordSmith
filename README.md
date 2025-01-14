@@ -74,9 +74,9 @@
 
 Once the process is complete, download the processed Excel file with the filled-in word information.
 
-##Code Overview
+## Code Overview
 
-##Main Components
+## Main Components
 
 Streamlit UI: The web interface that allows users to upload files, select LLM options, and download processed data.
 LLM Processing:
