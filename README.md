@@ -1,6 +1,6 @@
-# WordSmith
+# WordSmith AI Tool
 
-**WordSmith** is an AI-powered tool designed to complete and enrich linguistic datasets by providing definitions, parts of speech, etymologies, and usage examples for words. With the power of large language models (LLMs) like **GPT** and **Ollama**, WordSmith ensures efficient and precise filling of missing data, making it an ideal tool for language researchers, lexicographers, and anyone working with linguistic data.
+**WordSmith AI Tool** is an AI-powered tool designed to complete and enrich linguistic datasets by providing definitions, parts of speech, etymologies, and usage examples for words. With the power of large language models (LLMs) like **GPT** and **Ollama**, WordSmith ensures efficient and precise filling of missing data, making it an ideal tool for language researchers, lexicographers, and anyone working with linguistic data.
 
 ## Features
 
