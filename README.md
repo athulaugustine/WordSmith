@@ -75,7 +75,9 @@
 Once the process is complete, download the processed Excel file with the filled-in word information.
 
 ##Code Overview
+
 ##Main Components
+
 Streamlit UI: The web interface that allows users to upload files, select LLM options, and download processed data.
 LLM Processing:
 process_file_gpt: Uses OpenAI GPT to process and fill missing word information.
