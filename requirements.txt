@@ -1,0 +1,7 @@
+streamlit
+openpyxl
+langchain
+langchain_ollama
+langchain_community
+langchain_openai
+xlsxwriter
